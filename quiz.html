@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
     <link rel="stylesheet" href="styles.css" />
-    <script defer src="index.js"></script>
+    <script defer src="quiz.js"></script>
   </head>
   <body>
     <!-- Start NavBar -->
@@ -18,5 +18,40 @@
       </ul>
     </nav>
     <!-- End NavBar -->
+
+    <!-- Start Home Section -->
+    <div class="home">
+      <div class="about-box">
+        <h1 class="h1-home">What about them?</h1>
+        <div class="quiz-section-flex">
+          <p class="about-p">Where do the Maqdala Manuscripts come from?</p>
+          <input id="in1" type="text" class="input" />
+        </div>
+        <div class="quiz-section-flex">
+          <p class="about-p">
+            What country are the Maqdala manuscripts currently held?
+          </p>
+          <input id="in2" type="text" class="input" />
+        </div>
+        <div class="quiz-section-flex">
+          <p class="about-p">
+            What was the name of the Emperor of Ethiopia (Abyssinia)?
+          </p>
+          <input id="in3" type="text" class="input" />
+        </div>
+        <div class="quiz-section-flex">
+          <p class="about-p">What year did Britain invade Ethiopia?</p>
+          <input id="in4" type="number" class="input" />
+        </div>
+        <div class="quiz-section-flex">
+          <button class="button" id="button">Submit</button>
+          <div class="break"></div>
+          <p class="res">Results:</p>
+          <p id="output" class="output">---------------</p>
+          <p id="advice" class="advice">---------------</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Home Section -->
   </body>
 </html>
